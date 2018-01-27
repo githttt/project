@@ -1,4 +1,4 @@
-## 大作业 - 课程系统改进
+# 大作业 - 课程系统改进
 
 ### 原项目的github地址[戳这里](https://github.com/PENGZhaoqing/CourseSelect)
 
@@ -7,3 +7,17 @@
 ### 项目改进点
 - 添加了课程考试安排的相关信息
 - 对管理员后台进行了汉化
+
+### 效果截图
+
+<img src="/lib/1.png" width="900">  
+
+<img src="/lib/2.jpg" width="900">
+
+<img src="/lib/3.jpg" width="900">   
+
+<img src="/lib/4.png" width="900">
+
+<img src="/lib/5.png" width="900">
+
+<img src="/lib/6.png" width="900">
