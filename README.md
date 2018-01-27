@@ -10,7 +10,8 @@
 
 ### 效果截图
 
-<img src="/lib/1.png" width="900">  
+<img src="/lib/1.png" width="900">
+#### 管理员可以在课程编辑页面对每个课程的"考试时间"、"考试地点"信息进行添加、修改、删除
 
 <img src="/lib/2.jpg" width="900">
 
