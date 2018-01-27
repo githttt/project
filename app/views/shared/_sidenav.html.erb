@@ -32,6 +32,12 @@
                   <span class="glyphicon glyphicon-chevron-right"></span> 创建新课程
               <% end %>
             </li>
+            <li class="list-group-item">
+              <%= link_to exam_courses_path do %>
+                  <span class="glyphicon glyphicon-chevron-right"></span> 考试安排
+                  <span class="label label-info pull-right"><%= current_user.teaching_courses.length %></span>
+              <% end %>
+            </li>
         <% end %>
 
         <% if student_logged_in? %>
@@ -44,6 +50,12 @@
             <li class="list-group-item">
               <%= link_to courses_path do %>
                   <span class="glyphicon glyphicon-chevron-right"></span> 已选课程
+                  <span class="label label-info pull-right"><%= current_user.courses.length %></span>
+              <% end %>
+            </li>
+            <li class="list-group-item">
+              <%= link_to exam_courses_path do %>
+                  <span class="glyphicon glyphicon-chevron-right"></span> 考试安排
                   <span class="label label-info pull-right"><%= current_user.courses.length %></span>
               <% end %>
             </li>

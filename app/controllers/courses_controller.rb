@@ -69,6 +69,11 @@ class CoursesController < ApplicationController
     end
     @course=tmp
   end
+  
+  def exam
+    @course=current_user.teaching_courses if teacher_logged_in?
+    @course=current_user.courses if student_logged_in?
+  end
 
   def select
     @course=Course.find_by_id(params[:id])

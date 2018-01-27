@@ -7,6 +7,8 @@ class CreateCourses < ActiveRecord::Migration
       t.string :course_type
       t.string :teaching_type
       t.string :exam_type
+      t.string :exam_time
+      t.string :exam_room
       t.string :credit
       t.integer :limit_num
       t.integer :student_num, default: 0
