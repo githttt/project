@@ -49,4 +49,4 @@
 ## 项目实现的大致过程
 
 ### 添加考试信息
-1. 修改模型，在Course模型(文件路径: /db/migrate/20160907152104_create_courses.rb )中添加 考试时间(exam_time) 和 考试地点(exam_room) 两个属性字段
+1. 修改模型：在Course模型(文件路径: /db/migrate/20160907152104_create_courses.rb )中添加 考试时间(exam_time) 和 考试地点(exam_room) 两个属性字段
